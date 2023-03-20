@@ -6,7 +6,7 @@ const price = 0.21;
 console.log(chilometri, age);
 
 const discount20 = "";
-const discount40 = ""
+const discount40 = "";
 
 // Prezzo ticket
 const priceTicket = chilometri * price;
@@ -25,3 +25,11 @@ if(age > 65){
     console.log(priceDiscounted40);
 }
 
+// Output
+
+const message = `
+Salve viaggiatore/viaggiatrice, il tuo biglietto costa ${priceTicket}€!
+`
+console.log(message);
+
+// document.getElementById('messageElement').innerHTML = message;
